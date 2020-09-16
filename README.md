@@ -10,12 +10,14 @@ Tags:
 
 Requirements:
 
-- `#t-edn/thing`................(`thing-spec`)
-  - `:identity`.................(`identified-thing-spec`)
-  - `:class` and `:location`....(`intersection-thing-spec`)
-- `#t-edn/intent`...............(`intent-spec`)
-  - `:task` and `:thing`........(`intent-spec`)
-- `#t-edn/result`...............(`result-spec`)
-  - `:data`.....................(`result-spec`)
-- `#t-edn/failure`..............(`failure-spec`)
-  - `:reason`...................(`failure-spec`)
+Tags and possible required keys | Name of spec
+--------------------------------|-------------------------------
+- `#t-edn/thing`                |(`thing-spec`)
+  - `:identity`                 |(`identified-thing-spec`)
+  - `:class` and `:location`    |(`intersection-thing-spec`)
+- `#t-edn/intent`               |(`intent-spec`)
+  - `:task` and `:thing`        |(`intent-spec`)
+- `#t-edn/result`               |(`result-spec`)
+  - `:data`                     |(`result-spec`)
+- `#t-edn/failure`              |(`failure-spec`)
+  - `:reason`                   |(`failure-spec`)
