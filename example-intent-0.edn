@@ -1,7 +1,13 @@
 ; Turn on the lights upstairs
 
 #t-edn/message {
-                 :source      #t-edn/thing {
-                                             :id      "123e4567-e89b-12d3-a456-426614174000"}
+                 :source      #t-edn/thing  {
+                                              :id       0x123e4567e89b12d3a456426614174000}
+                 :dest        #t-edn/thing  {
+                                              :class    :light
+                                              :loc      :upstairs}
                  :contents    #t-edn/intent {
-                                              
+                                              :target   #t-edn/thing  {
+                                                                        :class      :light
+                                                                        :loc        :upstairs}
+                                              :task     :turn-on}}
