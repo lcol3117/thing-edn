@@ -17,4 +17,4 @@ Requirements:
 | `#t-edn/intent`  | `:target` and `:task`          | `intent-spec`                                     |
 | `#t-edn/result`  | `:data`                        | `return-spec`                                     |
 | `#t-edn/failure` | `:data`                        | `return-spec`                                     |
-| `#t-edn/message` | `:contents`                    | `message-spec`                                    |
+| `#t-edn/message` | `:load`, `:source` and `:dest` | `message-spec`                                    |
