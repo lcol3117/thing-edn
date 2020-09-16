@@ -10,11 +10,12 @@ Tags:
 
 Requirements:
 
-- `#t-edn/thing`
-  - `:identity` or (`:class` and `:location`)
-- `#t-edn/intent`
-  - `:task` and `:thing`
-- `#t-edn/result`
-  - `:data`
-- `#t-edn/failure`
-  - `:reason`
+- `#t-edn/thing`                (`thing-spec`)
+  - `:identity`                 (`identified-thing-spec`)
+  - `:class` and `:location`    (`intersection-thing-spec`)
+- `#t-edn/intent`               (`intent-spec`)
+  - `:task` and `:thing`        (`intent-spec`)
+- `#t-edn/result`               (`result-spec`)
+  - `:data`                     (`result-spec`)
+- `#t-edn/failure`              (`failure-spec`)
+  - `:reason`                   (`failure-spec`)
