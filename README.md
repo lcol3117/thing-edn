@@ -7,6 +7,7 @@ Tags:
 - `#t-edn/intent`   represents an intent for another `#t-edn/thing`
 - `#t-edn/result`   represents a succesful execution of a `#t-edn/intent`
 - `#t-edn/failure`  represents an unsuccesful execution of a `#t-edn/intent`
+- `#t-edn/message`  represents a `#t-edn/thing`, `#t-edn/result`, or `#t-edn/failure`
 
 Requirements:
 
@@ -16,3 +17,4 @@ Requirements:
 | `#t-edn/intent`  | `:target` and `:task`          | `intent-spec`                                     |
 | `#t-edn/result`  | `:data`                        | `return-spec`                                     |
 | `#t-edn/failure` | `:data`                        | `return-spec`                                     |
+| `#t-edn/message` | `:contents`                    | `message-spec`                                    |
