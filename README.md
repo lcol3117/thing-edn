@@ -10,9 +10,9 @@ Tags:
 
 Requirements:
 
-| Tag              | Required Key(s)                     | spec                                                  |
-|------------------|-------------------------------------|-------------------------------------------------------|
-| `#t-edn/thing`   | `:id` or (`:class` and `:location`) | `thing-spec`: `id-thing-spec` or `located-thing-spec` |
-| `#t-edn/intent`  | `:target` and `:task`               | `intent-spec`                                         |
-| `#t-edn/result`  | `:data`                             | `return-spec`                                         |
-| `#t-edn/failure` | `:data`                             | `return-spec`                                         |
+| Tag              | Required Key(s)                | spec                                              |
+|------------------|--------------------------------|---------------------------------------------------|
+| `#t-edn/thing`   | `:id` or (`:class` and `:loc`) | `thing-spec`: `id-thing-spec` or `loc-thing-spec` |
+| `#t-edn/intent`  | `:target` and `:task`          | `intent-spec`                                     |
+| `#t-edn/result`  | `:data`                        | `return-spec`                                     |
+| `#t-edn/failure` | `:data`                        | `return-spec`                                     |
